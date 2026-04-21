@@ -1,7 +1,8 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly VITE_AGUI_CHAT_URL?: string
+  readonly VITE_API_BASE_URL?: string
+  readonly VITE_WORKSPACE_ROOT?: string
 }
 
 interface ImportMeta {
